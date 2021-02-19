@@ -26,6 +26,10 @@ body{
     transform-style: preserve-3d; /* adiciona perspectiva 3d, para que o elemento nao fique achatada no plano */
     transition: transform .9s; /* adiciona efeito de movimento ao flip do card */
 }
+.card:active{
+    transform: scale(0.97);
+    transition: transform .3s;
+}
 .card-back,
 .card-front{
     width: 100%;
